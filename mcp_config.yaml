@@ -1,6 +1,7 @@
 operations:
   source: local
-  paths: /config/operations
+  paths:
+     - /config/operations
 
 schema:
   source: uplink
