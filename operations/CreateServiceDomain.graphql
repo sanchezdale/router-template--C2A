@@ -1,0 +1,10 @@
+mutation CreateServiceDomain {
+  serviceDomainCreate(input: {}) {
+    id
+    domain
+    targetPort
+    environmentId
+    serviceId
+  }
+}
+

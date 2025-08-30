@@ -1,0 +1,4 @@
+mutation DeployServiceInstance {
+  serviceInstanceDeployV2(environmentId: "", serviceId: "")
+}
+

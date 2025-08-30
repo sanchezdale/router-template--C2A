@@ -1,0 +1,8 @@
+query PlatformStatus {
+  platformStatus {
+    isStable
+    incident { status message }
+    maintenance { status message }
+  }
+}
+

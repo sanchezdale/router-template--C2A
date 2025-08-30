@@ -1,0 +1,4 @@
+query ListVariables {
+  variables(projectId: "", environmentId: "", serviceId: "")
+}
+

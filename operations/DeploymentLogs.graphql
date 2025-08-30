@@ -1,0 +1,13 @@
+query DeploymentLogs {
+  buildLogs(deploymentId: "") {
+    timestamp
+    severity
+    message
+  }
+  deploymentLogs(deploymentId: "") {
+    timestamp
+    severity
+    message
+  }
+}
+

@@ -1,0 +1,9 @@
+mutation CreateEnvironment {
+  environmentCreate(input: {}) {
+    id
+    name
+    projectId
+    createdAt
+  }
+}
+

@@ -1,0 +1,6 @@
+query FindEnvironment {
+  environments(projectId: "") {
+    edges { node { id name projectId } }
+  }
+}
+

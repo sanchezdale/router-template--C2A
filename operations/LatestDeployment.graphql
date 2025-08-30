@@ -1,0 +1,7 @@
+query LatestDeployment {
+  serviceInstance(environmentId: "", serviceId: "") {
+    id
+    latestDeployment { id status createdAt }
+  }
+}
+

@@ -1,0 +1,4 @@
+mutation DeleteProject {
+  projectDelete(id: "")
+}
+

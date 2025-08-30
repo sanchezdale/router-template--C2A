@@ -1,0 +1,7 @@
+mutation DeployTemplateV2 {
+  templateDeployV2(input: {}) {
+    projectId
+    workflowId
+  }
+}
+

@@ -1,0 +1,19 @@
+query ProjectServices {
+  project(id: "") {
+    id
+    name
+    services {
+      edges {
+        node {
+          id
+          name
+          updatedAt
+          serviceInstances {
+            edges { node { id environmentId region upstreamUrl } }
+          }
+        }
+      }
+    }
+  }
+}
+

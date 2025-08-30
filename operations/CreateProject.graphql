@@ -1,0 +1,8 @@
+mutation CreateProject {
+  projectCreate(input: {}) {
+    id
+    name
+    createdAt
+  }
+}
+

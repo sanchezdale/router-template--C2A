@@ -1,0 +1,4 @@
+mutation UpsertVarCollection {
+  variableCollectionUpsert(input: {})
+}
+

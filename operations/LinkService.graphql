@@ -1,0 +1,7 @@
+mutation LinkService {
+  serviceConnect(id: "", input: {}) {
+    id
+    name
+  }
+}
+

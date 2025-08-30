@@ -1,0 +1,4 @@
+query WhoAmI {
+  me { id email name lastLogin }
+}
+

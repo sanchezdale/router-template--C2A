@@ -1,0 +1,6 @@
+query ListProjects {
+  projects {
+    edges { node { id name description subscriptionType updatedAt } }
+  }
+}
+
