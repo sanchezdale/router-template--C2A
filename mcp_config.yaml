@@ -1,4 +1,4 @@
-endpoint: https://mcp.introdev.io
+endpoint: https://apollo-runtime-router-production-4ee8.up.railway.app
 operations:
   source: local
   paths:
