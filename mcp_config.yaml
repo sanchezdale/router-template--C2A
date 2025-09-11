@@ -7,6 +7,9 @@ operations:
 schema:
   source: uplink
 
+overrides:
+  mutation_mode: "all"
+
 transport:
   type: streamable_http
   address: "0.0.0.0"
