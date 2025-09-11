@@ -1,4 +1,4 @@
-mutation UpsertVarCollection {
-  variableCollectionUpsert(input: {})
+mutation UpsertVarCollection($input: VariableCollectionUpsertInput!) {
+  variableCollectionUpsert(input: $input)
 }
 

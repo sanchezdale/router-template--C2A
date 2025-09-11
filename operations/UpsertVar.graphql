@@ -1,4 +1,4 @@
-mutation UpsertVar {
-  variableUpsert(input: {})
+mutation UpsertVar($input: VariableUpsertInput!) {
+  variableUpsert(input: $input)
 }
 

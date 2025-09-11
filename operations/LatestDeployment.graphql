@@ -1,5 +1,5 @@
-query LatestDeployment {
-  serviceInstance(environmentId: "", serviceId: "") {
+query LatestDeployment($environmentId: ID!, $serviceId: ID!) {
+  serviceInstance(environmentId: $environmentId, serviceId: $serviceId) {
     id
     latestDeployment { id status createdAt }
   }

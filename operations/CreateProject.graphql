@@ -1,5 +1,5 @@
-mutation CreateProject {
-  projectCreate(input: {}) {
+mutation CreateProject($input: ProjectCreateInput!) {
+  projectCreate(input: $input) {
     id
     name
     createdAt

@@ -1,5 +1,5 @@
-mutation DeployTemplateV2 {
-  templateDeployV2(input: {}) {
+mutation DeployTemplateV2($input: TemplateDeployV2Input!) {
+  templateDeployV2(input: $input) {
     projectId
     workflowId
   }

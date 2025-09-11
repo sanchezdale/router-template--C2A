@@ -1,5 +1,5 @@
-mutation LinkService {
-  serviceConnect(id: "", input: {}) {
+mutation LinkService($id: ID!, $input: ServiceConnectInput!) {
+  serviceConnect(id: $id, input: $input) {
     id
     name
   }

@@ -1,10 +1,10 @@
-query DeploymentLogs {
-  buildLogs(deploymentId: "") {
+query DeploymentLogs($deploymentId: ID!) {
+  buildLogs(deploymentId: $deploymentId) {
     timestamp
     severity
     message
   }
-  deploymentLogs(deploymentId: "") {
+  deploymentLogs(deploymentId: $deploymentId) {
     timestamp
     severity
     message

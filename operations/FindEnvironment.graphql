@@ -1,5 +1,5 @@
-query FindEnvironment {
-  environments(projectId: "") {
+query FindEnvironment($projectId: ID!) {
+  environments(projectId: $projectId) {
     edges { node { id name projectId } }
   }
 }

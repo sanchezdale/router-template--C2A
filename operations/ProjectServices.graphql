@@ -1,5 +1,5 @@
-query ProjectServices {
-  project(id: "") {
+query ProjectServices($projectId: ID!) {
+  project(id: $projectId) {
     id
     name
     services {

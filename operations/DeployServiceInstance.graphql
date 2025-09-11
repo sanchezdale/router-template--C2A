@@ -1,4 +1,4 @@
-mutation DeployServiceInstance {
-  serviceInstanceDeployV2(environmentId: "", serviceId: "")
+mutation DeployServiceInstance($environmentId: ID!, $serviceId: ID!) {
+  serviceInstanceDeployV2(environmentId: $environmentId, serviceId: $serviceId)
 }
 

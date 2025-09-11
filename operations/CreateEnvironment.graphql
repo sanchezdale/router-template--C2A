@@ -1,5 +1,5 @@
-mutation CreateEnvironment {
-  environmentCreate(input: {}) {
+mutation CreateEnvironment($input: EnvironmentCreateInput!) {
+  environmentCreate(input: $input) {
     id
     name
     projectId

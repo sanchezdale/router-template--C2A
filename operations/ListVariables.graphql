@@ -1,4 +1,4 @@
-query ListVariables {
-  variables(projectId: "", environmentId: "", serviceId: "")
+query ListVariables($projectId: ID, $environmentId: ID, $serviceId: ID) {
+  variables(projectId: $projectId, environmentId: $environmentId, serviceId: $serviceId)
 }
 
